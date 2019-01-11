@@ -10,7 +10,7 @@ An API Endpoint + Web Query UI for BitDB
 This project contains:
 
 1. BitDB Microservice API Endpoint: An HTTP API Endpoint to your BitDB
-2. BitDB Query Web UI: As seen in [https://bitdb.network/v2/explorer](https://bitdb.network/v2/explorer)
+2. BitDB Query Web UI: As seen in [https://bitdb.bitcoin.com/explorer](https://bitdb.bitcoin.com/explorer)
 
 ## 1. BitDB Microservice API Endpoint
 
@@ -30,7 +30,7 @@ Makes use of the API endpoint to render the query UI
 You must have the following installed.
 
 1. Bitcoin Full Node: Any BCH node implementation
-2. Bitdb Node: Bitdb is a universal bitcoin database that autonomously synchronizes with Bitcoin https://bitdb.network
+2. Bitdb Node: Bitdb is a universal bitcoin database that autonomously synchronizes with Bitcoin https://bitdb.bitcoin.com
 
 
 # Install
@@ -38,7 +38,7 @@ You must have the following installed.
 Step 1. Clone this repository
 
 ```
-git clone https://github.com/21centurymotorcompany/bitserve.git
+git clone https://github.com/Bitcoin-com/bitserve.git
 ```
 
 Step 2. Install Dependencies
@@ -87,8 +87,3 @@ Here's what each attribute represents:
 - `url`: Mongodb URL that hosts BitDB.
 - `timeout`: default timeout for all query requests
 - `log`: `true` to see request and response logs, `false` to hide logs
-
-# Join the Community
-
-- Twitter: Follow the creator [@_unwriter](https://twitter.com/_unwriter)
-- Chat: Join bitdb Telegram channel, ask questions, share your projects, etc. [Open chat](https://t.me/joinchat/HH1DDQ8pZlSlsdNcKgIcxw)
