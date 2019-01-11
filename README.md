@@ -70,7 +70,7 @@ Example:
 ```
 {
   "query": {
-    "v": 2,
+    "v": 3,
     "q": { "find": {}, "limit": 10 }
   },
   "port": 3000,
